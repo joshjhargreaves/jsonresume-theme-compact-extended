@@ -32,7 +32,6 @@ More details about the CLI and it's commands are available [here](https://github
 
 ## Tips
  * In the interest of compactness, this theme currently ignores the following resume data:
-    - publications
     - languages
     - references
  * Other fields are ignored too (skill level, location, full dates, etc). 

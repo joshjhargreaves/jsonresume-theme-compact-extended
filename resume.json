@@ -142,6 +142,12 @@
   ],
   "publications": [
     {
+      "name": "jsonresume-theme-compact-extended",
+      "releaseDate": "2014-09-01",
+      "website": "https://www.npmjs.org/package/jsonresume-theme-compact-extended",
+      "summary": "An extended compact theme for a json-resume"
+    },
+    {
       "name": "MaxWallet",
       "releaseDate": "2014-03-01",
       "website": "http://wallet.joshhargreav.es",

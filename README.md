@@ -32,11 +32,8 @@ More details about the CLI and it's commands are available [here](https://github
 
 ## Tips
  * In the interest of compactness, this theme currently ignores the following resume data:
-    - awards
     - publications
-    - interests
     - languages
-    - volunteer
     - references
  * Other fields are ignored too (skill level, location, full dates, etc). 
  * Your networks are shown in the top section of the resume. The resume template

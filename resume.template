@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{#resume.basics}}{{name}}{{/resume.basics}}</title>
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+      {{{css}}}
+    </style>
+  </head>
+  <body>
+
+    <!-- header -->
+    <div class="container-fluid">
+      {{#resume.basics}}
+      <div class="row">
+        <div class="col-xs-6">
+          <h1 class="name"> {{name}}</h1>
+          <h3 class="title">{{label}}</h3>
+        </div>
+        <div class="col-xs-6 contact-info">
+          <ul class="pull-right">
+            <li>{{email}}</li>
+            <li>{{phone}}</li>
+            <li>
+              {{#each profiles}}
+              <i class="fa fa-{{toLowerCase network}}"></i> {{username}}
+              {{/each}}
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr style="margin-top: 0;" />
+
+      <!-- Profile/summary -->
+      <div class="row">
+        <div class="col-xs-2">
+          <h4 class="section-title"> Profile </h4>
+        </div>
+        <div class="col-xs-10">
+          {{summary}}
+        </div>
+        {{/resume.basics}}
+      </div>
+      <hr />
+
+      <!-- Skills -->
+      <div class="row">
+        <div class="col-xs-2">
+          <h4 class="section-title"> Skills </h4>
+        </div>
+        <div class="col-xs-10">
+          {{#each resume.skills}}
+          <span class="skill">{{name}}:</span>
+          {{#each keywords}}
+          {{#if @last}}
+          {{this}}
+          {{else}}
+          {{this}},
+          {{/if}}
+          {{/each}}
+          <br />
+          {{/each}}
+        </div>
+      </div>
+      <hr />
+
+      <!-- Experience -->
+      <div class="row">
+        <div class="col-xs-2">
+          <h4 class="section-title"> Experience </h4>
+        </div>
+        <div class="col-xs-10">
+          {{#each resume.work}}
+          <div class="row">
+            <div class="col-xs-6">
+              <div class="company"> {{company}} </div>
+              <div class="company-position"><em>{{position}}</em></div>
+            </div>
+            <div class="col-xs-6">
+              <span class="pull-right"> {{prettifyDate startDate}} -
+                {{prettifyDate endDate}} </span>
+            </div>
+          </div>
+          <div class="row company-description">
+            <div class="col-xs-12">
+              <ul>
+                <li class="company-summary">{{summary}}</li>
+                {{#each highlights}}
+                <li><i class="fa fa-chevron-circle-right"></i> {{this}}</li>
+                {{/each}}
+              </ul>
+            </div>
+          </div>
+          {{/each}}
+        </div>
+      </div>
+      <hr />
+
+      <!-- Education -->
+      <div class="row">
+        <div class="col-xs-2">
+          <h4 class="section-title"> Education </h4>
+        </div>
+        <div class="col-xs-10">
+          {{#each resume.education}}
+          <div class="row education-section">
+            <div class="col-xs-10">
+              <div class="school"> {{institution}} </div>
+              <i class="fa fa-graduation-cap"></i> <span>{{studyType}} in {{area}}</span>
+              {{#if gpa}}
+              <div class="education-gpa">
+                <i class="fa fa-paperclip"></i> <span style="padding-left: 5px">{{gpa}}</span>
+              </div>
+              {{/if}}
+            </div>
+            <div class="col-xs-2">
+              <div class="pull-right">
+                {{prettifyDate endDate}}
+              </div>
+            </div>
+          </div>
+          {{/each}}
+        </div>
+      </div>
+      <hr />
+
+      <!-- Interests -->
+      <div class="row">
+        <div class="col-xs-2">
+          <h4 class="section-title"> Interests </h4>
+        </div>
+        <div class="col-xs-10">
+          {{#each resume.interests}}
+          <span class="skill">{{name}}:</span>
+          {{#each keywords}}
+          {{#if @last}}
+          {{this}}
+          {{else}}
+          {{this}},
+          {{/if}}
+          {{/each}}
+          <br />
+          {{/each}}
+        </div>
+      </div>
+      <hr />
+
+      <!-- Volunteering -->
+      <div class="row">
+        <div class="col-xs-2">
+          <h4 class="section-title"> Volunteering </h4>
+        </div>
+        <div class="col-xs-10">
+          {{#each resume.volunteer}}
+          <div class="row">
+            <div class="col-xs-6">
+              <div class="company"> {{organization}} </div>
+              <div class="company-position"><em>{{position}}</em></div>
+            </div>
+            <div class="col-xs-6">
+              <span class="pull-right"> {{prettifyDate startDate}} -
+                {{prettifyDate endDate}} </span>
+            </div>
+          </div>
+          <div class="row company-description">
+            <div class="col-xs-12">
+              <ul>
+                <li class="company-summary">{{summary}}</li>
+                {{#each highlights}}
+                <li><i class="fa fa-chevron-circle-right"></i> {{this}}</li>
+                {{/each}}
+              </ul>
+            </div>
+          </div>
+          {{/each}}
+        </div>
+      </div>
+      <hr />
+
+      <!-- Publications -->
+      <div class="row">
+        <div class="col-xs-2">
+          <h4 class="section-title">Small Projects</h4>
+        </div>
+        <div class="col-xs-10">
+          {{#each resume.publications}}
+          <div class="row">
+            <div class="col-xs-6">
+              <div class="company"> {{name}} </div>
+              <div class="company-position"><em>{{publisher}}</em></div>
+            </div>
+            <div class="col-xs-6">
+              <span class="pull-right"> {{releaseDate}} </span>
+            </div>
+          </div>
+          <div class="row company-description">
+            <div class="col-xs-10">
+              <ul>
+                {{#if website}}
+                <li><a href="{{website}}">{{website}}</a></li>
+                {{/if}}
+                <li class="company-summary">{{summary}}</li>
+                {{#each highlights}}
+                <li><i class="fa fa-chevron-circle-right"></i> {{this}}</li>
+                {{/each}}
+              </ul>
+            </div>
+          </div>
+          {{/each}}
+        </div>
+      </div>
+
+      <hr />
+      <div class="row">
+        <div class="col-xs-2">
+          <h4 class="section-title">References</h4>
+        </div>
+        <div class="col-xs-10">
+          <strong>Available on request.</strong>
+        </div>
+      </div>
+    </div>    <!-- /end container-fluid -->
+  </body>
+</html>

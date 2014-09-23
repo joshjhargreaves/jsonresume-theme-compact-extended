@@ -1,0 +1,251 @@
+{
+  "basics": {
+    "name": "Josh Hargreaves",
+    "label": "Computer Scientist",
+    "picture": "",
+    "email": "jh1288@my.bristol.ac.uk",
+    "phone": "(+44) 7962-995947",
+    "website": "http://joshhargreav.es",
+    "summary": "Josh is a 4th year student at The University of Bristol currently finishing a Masters (MEng) in Computer Science (CS). While he spends a lot of his time developing, he as a lot of other pursuits, everything from Ballroom dancing to Ultimate frisbee!",
+    "location": {
+      "address": "20 Mount Street",
+      "postalCode": "GL71TJ",
+      "city": "Cirencester",
+      "countryCode": "UK",
+      "region": "Gloucestershire"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "hardgreaves",
+        "url": "https://github.com/hardgreaves"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "hardgreaves",
+        "url": "uk.linkedin.com/hardgreaves"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Renishaw PLC (General Engineering Software (GES))",
+      "position": "Junior Software Engineer",
+      "website": "http://renishaw.com",
+      "startDate": "2014-07-01",
+      "endDate": "2014-09-01",
+      "summary": "Renishaw is a British Engineering company based in Wotton-under-Edge, Gloucestershire and is a constituent of the FTSE 250 Index.",
+      "highlights": [
+        "Integrated in a team relgiously practicing TDD and Agile development."
+      ]
+    },
+    {
+      "company": "University of Bristol CS Department",
+      "position": "Lab Assistant for Introduction to Computer Architecture",
+      "startDate": "2013-10-01",
+      "endDate": "2014-05-01"
+    },
+    {
+      "company": "University of Bristol CS Department",
+      "position": "Lab Assistant for C service Course",
+      "startDate": "2013-10-01",
+      "endDate": "2014-01-14"
+    },
+    {
+      "company": "Renishaw PLC (Spectroscopy)",
+      "position": "Junior Software Engineer",
+      "startDate": "2013-07-01",
+      "endDate": "2013-09-01",
+      "highlights": [
+        "Gained proficiency in the .NET Framework and unit testing."
+      ]
+    },
+    {
+      "company": "University of Bristol CS Department",
+      "position": " Lab Assistant for Introduction to Procedural Programming",
+      "startDate": "2012-10-01",
+      "endDate": "2013-01-14"
+    },
+    {
+      "company": "Renishaw PLC (Spectroscopy)",
+      "position": "Junior Software Engineer",
+      "website": "http://renishaw.com",
+      "startDate": "2012-07-01",
+      "endDate": "2012-09-01",
+      "highlights": [
+        "Designed and created a new binary file format in C to store x,y,z points and JPEG images.",
+        "Learned to use git within a team and unit test all code."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Bristol Computer Science Society",
+      "position": "Vice President",
+      "website": "http://cssbristol.co.uk/committee/",
+      "startDate": "2014-06-01",
+      "endDate": "2015-06-01",
+      "summary": "The official society of CS students at the UoB.",
+      "highlights": []
+    },
+    {
+      "organization": "Bristol Univeristy Latin and Ballroom Dance Society",
+      "position": "Web Master",
+      "website": "http://www.bulabds.co.uk/",
+      "startDate": "2014-06-01",
+      "endDate": "2015-06-01",
+      "summary": "The official society of Latin & Ballroom dancing of the UoB.",
+      "highlights": []
+    },
+    {
+      "organization": "UBUFC (The UoB Ultimate Frisbee Club)",
+      "position": "Social Secretary",
+      "website": "http://www.bris.ac.uk/Depts/Union/UBUFC/home.html",
+      "startDate": "2013-06-01",
+      "endDate": "2014-06-01",
+      "summary": "The Univeristy of Bristol Ultimate Frisbee Society.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Bristol",
+      "area": "Computer Science.",
+      "studyType": "Masters of Engineers (MEng)",
+      "startDate": "2011-09-01",
+      "endDate": "2015-06-01",
+      "gpa": "2:1 in Year 3 (67%). 2:1 in Year 2 (67%). 1st Year 1 (70%).",
+      "courses": [
+        "DB1101 - Basic SQL",
+        "CS2011 - Java Introduction"
+      ]
+    },
+    {
+      "institution": "Cirencester College",
+      "studyType": "Electronics, Maths, Computing, Physics - A*,A,A,B",
+      "area": "A Levels.",
+      "startDate": "2009-09-01",
+      "endDate": "2011-06-01",
+      "courses": [
+        "DB1101 - Basic SQL",
+        "CS2011 - Java Introduction"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Digital Compression Pioneer Award",
+      "date": "2014-11-01",
+      "awarder": "Techcrunch",
+      "summary": "There is no spoon."
+    }
+  ],
+  "publications": [
+    {
+      "name": "MaxWallet",
+      "releaseDate": "2014-03-01",
+      "website": "http://wallet.joshhargreav.es",
+      "summary": "Small 'one-page' web-app made for a web unit with AngularJS, NodeJS, ExpressJS, PassportJS and MongoDB that supports asynchronous account creation, logging in and some CRUD (create, read, update and delete) features once logged in."
+    },
+    {
+      "name": "Ionic App with NodeJS Backend",
+      "releaseDate": "2014-07-01",
+      "website": "http://fullstack.joshhargreav.es",
+      "summary": "App made to test quality of user experience when deploying a web app as a native app. NodeJS backend with MongoDB as data store and AngularJS with Ionic Framework components on front end. Currently supports OAuth login through services such as Facebook, account creation etc. as well as native features such as 'toasts'. Live demo can be seen at the above URL with the code and instructions on how to build natively on my Github."
+    },
+    {
+      "name": "Basic Ray Tracer",
+      "releaseDate": "2014-07-01",
+      "website": "http://cdn.joshhargreav.es/graphics_report.pdf",
+      "summary": "Basic Ray Tracer written in C++ implementing from scratch a camera model, planes & triangles, transparency, depth of field, specular material, point lights and shadows."
+    },
+    {
+      "name": "ARM Emulator",
+      "releaseDate": "2012-03-01",
+      "summary": "Created an ARM emulator capable of executing a subset of 15 raw hexidecimal instructions."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web/App Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "CSS Animations",
+        "Javascript",
+        "AngularJS",
+        "NodeJS",
+        "PassportJS",
+        "MongoDB",
+        "Mongoose",
+        "SQL",
+        "Oracle DB",
+        "SequelizeJS",
+        "Phonegap/Cordova",
+        "Ionic Framework",
+        "Dokku."
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "Master",
+      "keywords": [
+        "C",
+        "C++",
+        "C#",
+        "XC",
+        "Python",
+        "Verilog",
+        "ARM Assembly",
+        "OpenCL",
+        "OpenMP",
+        "OpenCV",
+        "Haskell",
+        "Tcl",
+        "NSubstitute",
+        "WinForms."
+      ]
+    },
+    {
+      "name": "Development",
+      "level": "Master",
+      "keywords": [
+        "Agile Development",
+        "Test Driven Development (TDD)",
+        "git",
+        "Team Foundation Server (TFS)."
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Latin & Ballroom Dancing",
+      "keywords": [
+        "Jive",
+        "Cha cha cha",
+        "Quickstep",
+        "Waltz."
+      ]
+    },
+    {
+      "name": "Ultimate Frisbee",
+      "keywords": [
+        "Bristol Ultimate",
+        "UBUFC."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Erlich Bachman",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ]
+}

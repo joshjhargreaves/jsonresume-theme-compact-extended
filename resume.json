@@ -6,7 +6,7 @@
     "email": "jh1288@my.bristol.ac.uk",
     "phone": "(+44) 7962-995947",
     "website": "http://joshhargreav.es",
-    "summary": "Josh is a 4th year student at The University of Bristol currently finishing a Masters (MEng) in Computer Science (CS). While he spends a lot of his time developing, he has a lot of other pursuits, everything from Ballroom dancing to Ultimate frisbee!",
+    "summary": "Josh is a 4th year student at The University of Bristol currently finishing a Masters (MEng) in Computer Science (CS). While he spends a lot of his time developing, he has a lot of other pursuits, everything from Ballroom Dancing to Ultimate Frisbee!",
     "location": {
       "address": "20 Mount Street",
       "postalCode": "GL71TJ",
@@ -29,53 +29,23 @@
   },
   "work": [
     {
-      "company": "Renishaw PLC (General Engineering Software (GES))",
+      "company": "Renishaw PLC",
       "position": "Junior Software Engineer",
       "website": "http://renishaw.com",
-      "startDate": "2014-07-01",
+      "startDate": "2012-08-01",
       "endDate": "2014-09-01",
-      "summary": "Renishaw is a British Engineering company based in Wotton-under-Edge, Gloucestershire and is a constituent of the FTSE 250 Index.",
+      "summary": "Completed three, eight week long summer placements over 3 years and received an offer of sponsorship after first year.",
       "highlights": [
-        "Integrated in a team relgiously practicing TDD and Agile development."
+        "Designed and implemented a new binary file format in C to store x,y,z points and JPEG images as well as other IO related tasks. First experience with using git within a team. (Y1)",
+        "Gained proficiency in the .NET Framework, unit testing and worked on documenting the next major release of flagship software product. (Y2)",
+        "Spent duration of placement in a team religiously practicing TDD and Agile development. (Y3)"
       ]
     },
     {
       "company": "University of Bristol CS Department",
-      "position": "Lab Assistant for Introduction to Computer Architecture",
-      "startDate": "2013-10-01",
-      "endDate": "2014-05-01"
-    },
-    {
-      "company": "University of Bristol CS Department",
-      "position": "Lab Assistant for C service Course",
-      "startDate": "2013-10-01",
-      "endDate": "2014-01-14"
-    },
-    {
-      "company": "Renishaw PLC (Spectroscopy)",
-      "position": "Junior Software Engineer",
-      "startDate": "2013-07-01",
-      "endDate": "2013-09-01",
-      "highlights": [
-        "Gained proficiency in the .NET Framework and unit testing."
-      ]
-    },
-    {
-      "company": "University of Bristol CS Department",
-      "position": " Lab Assistant for Introduction to Procedural Programming",
+      "position": "Lab Assistant for Introduction to Computer Architecture, C service Course, Introduction to Procedural Programming",
       "startDate": "2012-10-01",
-      "endDate": "2013-01-14"
-    },
-    {
-      "company": "Renishaw PLC (Spectroscopy)",
-      "position": "Junior Software Engineer",
-      "website": "http://renishaw.com",
-      "startDate": "2012-07-01",
-      "endDate": "2012-09-01",
-      "highlights": [
-        "Designed and created a new binary file format in C to store x,y,z points and JPEG images.",
-        "Learned to use git within a team and unit test all code."
-      ]
+      "endDate": "2014-05-01"
     }
   ],
   "volunteer": [
@@ -145,7 +115,7 @@
       "name": "jsonresume-theme-compact-extended",
       "releaseDate": "2014-09-01",
       "website": "https://www.npmjs.org/package/jsonresume-theme-compact-extended",
-      "summary": "An extended compact theme for a json-resume"
+      "summary": "An extended compact theme for a json-resume."
     },
     {
       "name": "MaxWallet",
